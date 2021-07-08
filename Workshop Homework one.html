@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop Meteo</title>
+    <style>
+      body {
+        background-color: rgb(247, 242, 238);
+      }
+      p {
+        text-align: center;
+        font-size: 10px;
+      }
+      h1 {
+        color: #9c89e9;
+        font-weight: thin;
+        text-align: center;
+        font-size: 45px;
+        margin: 0px;
+      }
+
+      h2 {
+        text-align: center;
+        font-weight: lighter;
+        padding: 0px, 0px, 0px, 10px;
+        margin: 10px auto;
+        font-size: 38px;
+        margin: 0px;
+      }
+      h3 {
+        font-size: 22px;
+      }
+      ul {
+        text-align: center;
+        font-weight: thin;
+        list-style: none;
+        padding: 0px;
+      }
+
+      li {
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+      li:hover {
+        background: #dbcffa;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #911ad6;
+        background: #911ad6;
+        color: rgb(247, 242, 238);
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #885df1;
+        color: rgb(247, 242, 238);
+        cursor: pointer;
+      }
+
+      .contorno {
+        text-shadow: 2px 0 #1312139f, 0 1px #1312139f, 1px 0#1312139f,
+          0 1px #1312139f;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      ☔
+      <span class="contorno"> <br />Currenty 30° in Rome</span>
+    </h1>
+    <h2>22° / <strong>35°</strong></h2>
+
+    <ul>
+      <li>
+        <h3>Tomorrow</h3>
+        <p1>🌧 21° / <strong>33°</strong></p1>
+      </li>
+      <li>
+        <h3>Saturday</h3>
+        <p1>🌥 19° / <strong>33°</strong></p1>
+      </li>
+      <li>
+        <h3>Sunday</h3>
+        <p1>☀️ 20° / <strong>33°</strong></p1>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <p>Coded by Anna Marenga</p>
+  </body>
+</html>
